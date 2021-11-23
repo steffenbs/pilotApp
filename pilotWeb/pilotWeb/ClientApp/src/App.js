@@ -1,10 +1,10 @@
-import Dashboard from "./common/components/Dashboard";
-import Header from "./modules/Header";
+import Dashboard from "./pages/blog/Dashboard";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header/>
       <Dashboard />
     </div>
   );

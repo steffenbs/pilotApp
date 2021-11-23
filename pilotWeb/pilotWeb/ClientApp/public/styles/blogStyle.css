@@ -1,0 +1,43 @@
+.blogContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    
+}
+@media(max-width:700px){
+  .blogContainer {
+     grid-template-columns: repeat(1, 1fr);
+  }
+}
+    .blogListItem {
+        color: #616161;
+        margin: 1%;
+        float: left;
+        width: 1fr;
+        padding: 10px;
+        border: 2px solid #424242;
+        background-color: rgba(35, 35, 35, 0.7);
+        height: 200px;
+        display: grid;
+        grid-template-rows: 20px 20px 1fr;
+    }
+    .blogListItem:hover {
+        border: 2px solid #E0E0E0;
+    }
+    .blogCardTag {
+        text-align:left;
+    }
+    .blogCardTitle {
+        text-align: center;
+        margin: 10%;
+        height: 100px;
+        font-size: 20px;
+    }
+        .titleText {
+            text-align: center;
+            display: -webkit-inline-box;
+            max-width: 200px;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            color: #BDBDBD;
+        }
